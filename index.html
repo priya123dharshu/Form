@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+<style>
+    .field{
+        background-color: rgb(166, 165, 219);
+        border: 6px;
+    }
+</style>
+<body style="background-color:cyan;">
+    
+    <h1 style="text-align: center;">Job Application Form</h1> 
+    <h2 style="text-align: center;">Microsoft</h2>
+    <h3>About</h3>
+    <p>Microsoft was founded by Bill Gates and Paul Allen on April 4, 1975, to develop and sell BASIC interpreters for the Altair 8800. It rose to dominate the personal computer operating system market with MS-DOS in the mid-1980s, followed by Windows. The company's 1986 initial public offering (IPO) and subsequent rise in its share price created three billionaires and an estimated 12,000 millionaires among Microsoft employees.</p>
+    <p>Since the 1990s, it has increasingly diversified from the operating system market and has made several corporate acquisitions, the largest being the acquisition of Activision Blizzard for $68.7 billion in October 2023,[4] followed by its acquisition of LinkedIn for $26.2 billion in December 2016,[5] and its acquisition of Skype Technologies for $8.5 billion in May 2011.[6]</p>
+<a href="https://www.microsoft.com/en-in">Our Official website</a>
+<br><br>
+
+<div class="field">
+<fieldset>
+    <legend>Application Form </legend>  
+    <form action="register.html">
+    <div>
+<label for="fname">First name:</label>
+<input type="text" name="name" id="fname" placeholder="enter your first name" required>
+</div><br>
+<div>
+<label for="lname">Last name:</label>
+<input type="text" name="name" id="lname" placeholder="enter your last name" required>
+</div><br>
+<div>
+    <label for="dob">Date of Birth</label>
+    <input type="date" name="DOB" id="dob" required>
+</div><br>
+<div>
+    <label for="gender">Gender:</label>
+    <input type="radio" id="gender" name="gender" value="male" >
+     <label>male</label>
+     <input type="radio" id="gender" name="gender" value="female" >
+     <label>female</label>
+     <input type="radio" id="gender" name="gender" value="others" >
+     <label>others</label>
+</div><br>
+<div>
+    <label for="age">Age</label>
+    <input type="number" name="age" id="age" min="18" max="25" required>
+</div><br>
+<div>
+    <label>Choose your blood group</label>
+    <select name="blood group" id="bloodgroup" required>
+        <option value="O+">O+</option>
+        <option value="AB+">AB+</option>
+        <option value="O-">O-</option>
+        <option value="AB-">AB-</option>
+        <option value="B+">B+</option>
+        <option value="A+">A+</option>
+        <option value="A-">A-</option>
+        <option value="B-">B-</option>
+    </select>
+</div><br>
+<div>
+    <label for="nation">Nationality</label>
+    <input type="text" name="nation" id="nation" placeholder="enter your nation" required>
+</div><br>
+<div>
+    <label for="fathername">Father name:</label>
+    <input type="text" name="name" id="fathername" placeholder="enter your father name" required>
+</div><br>
+<div>
+    <label for="mname">Mother name:</label>
+<input type="text" name="name" id="mname" placeholder="enter your mother name" required>
+</div><br>
+<div>
+    <label for="email">E-Mail:</label>
+<input type="email" name="mail" id="email" placeholder="enter valid email" required>
+</div><br>
+<div>
+    <label for="mn">Mobile Number:</label>
+<input type="text" name="country" value="+91" size="2" readonly="readonly">
+<input type="tel" name="number" size="10" id="mn" placeholder="enter valid number" maxlength="10" required>
+</div><br>
+<fieldset>
+    <legend>Address</legend>
+  <div>
+    <textarea value="address" placeholder="enter your address" width="20px" height="10px" required></textarea>
+    </div><br>
+    <div>
+        <label for="district">District:</label>
+        <input type="text" name="district" id="district" placeholder="enter your district" required>
+    </div><br>
+    <div>
+        <label for="state">State:</label>
+<input type="text" name="state" id="state" placeholder="enter your state" required>
+    </div><br>
+    <div>
+        <label for="pcode">Pincode:</label>
+<input type="text" name="Pincode" id="pcode" placeholder="enter valid pincode" maxlength="6"required>
+</div><br>
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242.94022170951362!2d80.24389356092448!3d13.032898894595162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267b289b6aaab%3A0xce3ce7c6bda43d1d!2sMicrosoft%20Corporation%20India%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1723608284668!5m2!1sen!2sin" width="300" height="200" style="border:3;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </div><br>
+   <div>
+    <h2>Course:</h2>
+<input type="checkbox" name="course">
+<label>CSS</label><br>
+<input type="checkbox" name="course">
+<label>JAVASCRIPT</label><br>
+<input type="checkbox" name="course">
+<label>JAVE</label><br>
+<input type="checkbox" name="course">
+<label>HTML</label><br>
+<input type="checkbox" name="course">
+<label>PYTHON</label>
+    </div><br>
+    <div>
+        <label for="jrole">Job Role</label>
+        <select name="jrole" id="jrole" placeholder="select your role" required>
+            <option value="front end">Front End</option>
+            <option value="Back end">Back End</option>
+            <option value="Full stack">Full Stack</option>
+            <option value="UI developer">UI Developer</option>
+            <option value="tester">Tester</option>
+        </select>
+    </div><br>
+    <div>
+        <label for="pyear">Passout year:</label>
+        <input type="number" name="pyear" id="pyear" min="2019" max="2024" required>
+    </div><br>
+    <div>
+        <h2>File Upload:</h2>
+        <label for="resume">Resume:</label>
+        <input type="file" name="resume" id="resume" required><br><br>
+        <label for="msheet">10<sup>th</sup>:</label>
+        <input type="file" name="msheet" id="msheet" required><br><br>
+        <label for="mark">12<sup>th</sup>:</label>
+        <input type="file" name="mark" id="mark" required><br><br>
+        <label for="dd">Diploma or Degree:</label>
+        <input type="file" name="dd" id="dd" required><br><br>
+        <label for="Ad">Aadhar:</label>
+        <input type="file" name="aadhar" id="ad" required>
+    </div><br>
+    <div>
+        <label for="ex"> years of Experience :</label>
+        <input type="number" name="ex" id="ex" max="20" min="2" required>
+    </div><br>
+    <div>
+        <label for="es">Expected Salary:</label>
+        <select name="es" id="es" required>
+            <option value="10,000">10,000</option>
+            <option value="20,000">20,000</option>
+            <option value="30,000">30,000</option>
+            <option value="40,000">40,000</option>
+            <option value="50,000">50,000</option>
+        </select>
+    </div><br>
+    <div>
+        <label for="pc">Previous  Company - Job role:</label>
+        <input type="text" name="pc" id="pc" required>
+    </div><br>
+    <div>
+        <label for="cj">Why do you choose this job? </label><br>
+        <textarea name="cj" id="cj"></textarea>
+    </div><br>
+    <div>
+        <input type="submit">
+        <input type="reset">
+    </div>
+
+</fieldset>
+</div>
+</fieldset>
+</form>
+</body>
+</html>
